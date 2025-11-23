@@ -8,8 +8,9 @@
 ## Table of Contents
 
 ### - Learning journal
-- [02/11/2025 - Caculus](diary/2025-11-02-ma006-caculus.md)
-- [05/11/2025 - Linear Algebra](diary/2025-11-05-ma003-linear-algebra.md)
+- [Midterm Caculus](diary/midterm-caculus.md)
+- [Midterm Linear Algebra](diary/midterm-linear-algebra.md)
+- [Intro to Machine Learning & Deep Learning](diary/intro-to-machine-learning-and-deep-learning.md)
 
 ### - Coding
 
