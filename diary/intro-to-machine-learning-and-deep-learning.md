@@ -1,19 +1,19 @@
 # Intro to Machine Learning & Deep Learning
 
 1. Trí tuệ nhân tạo : các kĩ thuật giúp máy móc có thể mô phỏng các hành vi trí tuệ của con người
-VD: Nhận diện âm thanh, hình ảnh; Điều khiển xe tự lái , ...
+- VD: Nhận diện âm thanh, hình ảnh; Điều khiển xe tự lái , ...
 
 2. Từ tập luật ban đầu -> Học từ dữ liệu : Học máy => Máy tính sẽ học các quy luật từ dữ liệu và cải thiện dần theo thời gian mà không cần được lập trình rõ ràng các quy luật
-VD: Phân loại email (email có phải là email rác hay không ?)
+- VD: Phân loại email (email có phải là email rác hay không ?)
 
 3. Vai trò của con người trong học máy
 - Học máy "nông" : con người đóng vai trò là chuyên gia biểu diễn dữ liệu, máy sẽ học bằng các mô hình phân loại cơ bản => Kết luận
 - Học máy "sâu" : mạng nơ-ron học các mẫu, quy luật từ rất nhiều dữ liệu => Kết luận
 
 4. Cở sở của việc Học từ dữ liệu
-Có 2 vấn đề cần giải quyết:
-- Ước lượng : Dữ liệu thu thập được chỉ là những quan sát có nhiễu phản ảnh giá trị mà ta muốn biết -> Làm thế nào để dùng những quan sát đó để ước lượng được giá trị gần đúng nhất?
-- Khái quát hoá : Làm thế nào để dự đoán kết quả của một tình huống chưa từng xuất hiện trong tập dữ liệu?
+- Có 2 vấn đề cần giải quyết:
+  - Ước lượng : Dữ liệu thu thập được chỉ là những quan sát có nhiễu phản ảnh giá trị mà ta muốn biết -> Làm thế nào để dùng những quan sát đó để ước lượng được giá trị gần đúng nhất?
+  - Khái quát hoá : Làm thế nào để dự đoán kết quả của một tình huống chưa từng xuất hiện trong tập dữ liệu?
 
 5. Thành phần của Học máy
 - Mô tả bài toán:
@@ -50,14 +50,14 @@ Có 2 vấn đề cần giải quyết:
 
     - Các bài toán phổ biến:
       - Phân cụm (Clustering)
-      -> Gom các điểm dữ liệu tương đồng lại với nhau
-      VD: phân nhóm khách hàng có hành vi mua sắm giống nhau
-      -> Thuật toán tiêu biểu: K-Means, ...
+        -> Gom các điểm dữ liệu tương đồng lại với nhau
+        - VD: phân nhóm khách hàng có hành vi mua sắm giống nhau
+        - Thuật toán tiêu biểu: K-Means, ...
 
       - Giảm chiều (Dimensionality Reduction): Nhiều chiều -> Ít chiều hơn
-      -> Giảm số lượng đặc trưng (features) trong dữ liệu để dễ quan sát và xử lý
-      VD: từ tập dữ liệu 100 chiều -> giảm còn 2-3 chiều là đặc trưng quan trọng để vẽ biểu đồ 
-      -> Thuật toán tiêu biểu: PCA (Principal Component Analysis), ...
+         - Giảm số lượng đặc trưng (features) trong dữ liệu để dễ quan sát và xử lý
+         - VD: từ tập dữ liệu 100 chiều -> giảm còn 2-3 chiều là đặc trưng quan trọng để vẽ biểu đồ 
+         - Thuật toán tiêu biểu: PCA (Principal Component Analysis), ...
 
 7. Giả định:
   - Khi huấn luyện mô hình thuật toán -> có vô số cách để miêu tả mối quan hệ giữa dữ liệu đầu vào (x) và dữ liệu đầu ra (y) 
@@ -67,9 +67,9 @@ Có 2 vấn đề cần giải quyết:
      - Giảm dữ liệu cần thiết để tìm ra mô hình phù hợp
      - Tăng độ tin cậy và khái quát hoá mô hình
 
-    VD: Dữ liệu là độc lập và phân phối đồng nhất (IID - Independent and Identically Distributed)
-    Trong bài toán phân cụm khách hàng, ta giả định mỗi khách hàng là độc lập 
-    -> Không cần tính đến sự phụ thuộc giữa hành vi của người này và người khác 
+     - VD: Dữ liệu là độc lập và phân phối đồng nhất (IID - Independent and Identically Distributed)
+        - Trong bài toán phân cụm khách hàng, ta giả định mỗi khách hàng là độc lập 
+        - Không cần tính đến sự phụ thuộc giữa hành vi của người này và người khác 
 
   - Nếu giả định đúng, mô hình học sẽ được khái quát tốt hơn
   - Nếu giả định sai, mô hình có thể bị sai lệch (bias) hoặc quá khớp (overfitting)
