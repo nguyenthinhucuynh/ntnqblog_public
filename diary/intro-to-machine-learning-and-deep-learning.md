@@ -35,13 +35,11 @@
       - Đầu ra: y(n+1)
 
     - Có 2 bài toán chính:
-      - Hồi quy (Regression) : y là số thực 
-      -> Dự đoán giá trị cụ thể
-      VD: dự đoán giá nhà dựa vào diện tích; dự đoán điểm thi dự vào số giờ học ...
+      - Hồi quy (Regression) : y là số thực -> Dự đoán giá trị cụ thể
+        - VD: dự đoán giá nhà dựa vào diện tích; dự đoán điểm thi dự vào số giờ học ...
 
-      - Phân loại (Classification) : y là rời rạc
-      -> Dự đoán nhãn/nhóm
-      VD: phân loại email spam
+      - Phân loại (Classification) : y là rời rạc -> Dự đoán nhãn/nhóm
+        - VD: phân loại email spam
 
 
   - Học không giám sát
