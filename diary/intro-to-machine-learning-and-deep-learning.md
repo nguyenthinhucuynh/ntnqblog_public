@@ -16,16 +16,16 @@ Có 2 vấn đề cần giải quyết:
 - Khái quát hoá : Làm thế nào để dự đoán kết quả của một tình huống chưa từng xuất hiện trong tập dữ liệu?
 
 5. Thành phần của Học máy
-Mô tả bài toán:
-- Loại bài toán : Loại nhiệm vụ? Dạng dữ liệu (có nhãn hay không?)
-- Giả định : Ta biết gì về nguồn dữ liệu đầu vào, hay dạng lời giải?
-- Tiêu chí đánh giá : Đánh giá hiệu quả hệ thống bằng cách nào?
-Mô tả lời giải:
-- Mô hình : 1 hàm toán học của dữ liệu đầu vào -> Lựa chọn như thế nào?
-- Thuật toán : Quá trình tính toán nào sẽ được sử dụng để khớp mô hình với dữ liệu và đưa ra dự đoán
+- Mô tả bài toán:
+  - Loại bài toán : Loại nhiệm vụ? Dạng dữ liệu (có nhãn hay không?)
+  - Giả định : Ta biết gì về nguồn dữ liệu đầu vào, hay dạng lời giải?
+  - Tiêu chí đánh giá : Đánh giá hiệu quả hệ thống bằng cách nào?
+- Mô tả lời giải:
+  - Mô hình : 1 hàm toán học của dữ liệu đầu vào -> Lựa chọn như thế nào?
+  - Thuật toán : Quá trình tính toán nào sẽ được sử dụng để khớp mô hình với dữ liệu và đưa ra dự đoán
 
 
-- Loại bài toán:
+6. Loại bài toán
   - Học có giám sát:
     - Học từ dữ liệu huấn luyện. (x(1),y(1)),...,(x(n),y(n)) - Dữ liệu đã có nhãn
     - Ý tưởng: Mô hình sẽ học từ dữ liệu đã có nhãn - ta đã biết trước được đầu ra tương ứng cho từng đầu vào 
@@ -59,7 +59,7 @@ Mô tả lời giải:
       VD: từ tập dữ liệu 100 chiều -> giảm còn 2-3 chiều là đặc trưng quan trọng để vẽ biểu đồ 
       -> Thuật toán tiêu biểu: PCA (Principal Component Analysis), ...
 
-- Giả định:
+7. Giả định:
   - Khi huấn luyện mô hình thuật toán -> có vô số cách để miêu tả mối quan hệ giữa dữ liệu đầu vào (x) và dữ liệu đầu ra (y) 
   - Tuy nhiên, ta không thể xem xét toàn bộ các mô hình có thể có -> vì điều này là bất khả thi
   - Vì vậy, ta sẽ đưa ra một số giả định nhằm:
@@ -74,7 +74,7 @@ Mô tả lời giải:
   - Nếu giả định đúng, mô hình học sẽ được khái quát tốt hơn
   - Nếu giả định sai, mô hình có thể bị sai lệch (bias) hoặc quá khớp (overfitting)
 
-- Tiêu chí đánh giá:
+8. Tiêu chí đánh giá:
   - Sử dụng hàm mất mát L(g,a) -> Bị phạt bao nhiêu khi đưa ra dự đoán là g, câu trả lời thật là a
 
 
